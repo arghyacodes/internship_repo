@@ -7,9 +7,6 @@ class HelloWorld
     public static void main(String[] args)
     {
         System.out.println("Hello World!");
-    }
-    public static void localv()
-    {
         int j = 9;
         double k = 9.909;
         boolean b = false;
@@ -19,9 +16,9 @@ class HelloWorld
         System.out.println(k);
         System.out.println(b);
         System.out.println(ch);
-    }
 
-    // public static void display()
+    }
+    // public static void display(String[] args)
     // {
     //     System.out.println(a);
     //     System.out.println(b);
