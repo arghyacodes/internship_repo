@@ -11,7 +11,7 @@ public class DupliCount {
 		int maxVal = Collections.max(Arrays.asList(array));
 		int[] hash = {};
 		
-		for(int i = 0; i<(array.length -1); i++) {
+		for(int i = 0; i<=(array.length)-2; i++) {
 			if(array[i]==array[i+1]) {
 				hash[array[i]] ++;
 			}
