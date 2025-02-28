@@ -4,6 +4,9 @@ class Student{
 	public
 		int id;
 		String name;
+		Student(){
+			System.out.println("Student Created");
+		}
 		
 		void getInfo() {
 			System.out.println("Id : "+id+" Name : "+name);
@@ -12,6 +15,9 @@ class Student{
 class Scholar extends Student{
 	public
 		String major;
+		Scholar(){
+			System.out.println("Scholar Created");
+		}
 		void getInfo() {
 			System.out.println("Id : "+id+" Name : "+name+" Major in : "+major);
 		}
@@ -20,6 +26,9 @@ class Scholar extends Student{
 class Teacher extends Scholar{
 	public
 		int salary;
+		Teacher(){
+			System.out.println("Teacher Created");
+		}
 		void getInfo() {
 			System.out.println("Id : "+id+" Name : "+name+" Major in : "+major+" Salary : "+salary);
 		}
