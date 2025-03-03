@@ -40,7 +40,7 @@ public class EmployeeStreamDemo {
                 new Employee(102, "Bhogoboti", 25, "Male", 2021, 60000),
                 new Employee(103, "Chirgail", 28, "Male", 2019, 55000),
                 new Employee(104, "Soham", 40, "Male", 2022, 65490),
-                new Employee(105, "Adway", 25, "Male", 2023, 69990)
+                new Employee(105, "Adway", 21, "Male", 2023, 69990)
         );
 
         // 1. Print employees whose name starts with a specific character (e.g., 'A')
