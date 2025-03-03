@@ -36,11 +36,11 @@ class Employee {
 public class EmployeeStreamDemo {
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
-                new Employee(101, "Alice", 30, "Female", 2018, 50000),
-                new Employee(102, "Bob", 35, "Male", 2021, 60000),
-                new Employee(103, "Charlie", 28, "Male", 2019, 55000),
-                new Employee(104, "David", 40, "Male", 2022, 65000),
-                new Employee(105, "Eve", 25, "Female", 2023, 70000)
+                new Employee(101, "Aimayak", 23, "Male", 2018, 50000),
+                new Employee(102, "Bhogoboti", 25, "Male", 2021, 60000),
+                new Employee(103, "Chirgail", 28, "Male", 2019, 55000),
+                new Employee(104, "Soham", 40, "Male", 2022, 65490),
+                new Employee(105, "Adway", 25, "Male", 2023, 69990)
         );
 
         // 1. Print employees whose name starts with a specific character (e.g., 'A')
