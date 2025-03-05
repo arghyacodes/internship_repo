@@ -24,14 +24,14 @@ public class SerialDemo {
 	Customer cstObj = new Customer(id, name, city, pinCode);
 	
 	FileOutputStream fout = null;
-	BuferedOutputStream = null;
+	Object BuferedOutputStream = null;
 	ObjectOutputStream objout = null;
 	
 	System.out.println("Done");
 	
 	try {
 		fout = new FileOutputStream("rc/customer.txt");
-		bout = new BufferedOutputStream(fout);
+		BufferedOutputStream bout = new BufferedOutputStream(fout);
 		objout = new ObjectOutputStream(bout);
 		objout.writeObject(cstObj);
 	}
