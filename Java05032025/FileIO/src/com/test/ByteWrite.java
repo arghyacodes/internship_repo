@@ -5,9 +5,11 @@ import java.io.FileOutputStream;
 
 class ByteWrite {
 	public static void main(String[] args) {
+		FileOutputStream fout = null;
 		try {
 			File file = new File("src/bytetest.txt");
-			FileOutputStream fout = new FileOutputStream(file);
+			
+			fout = new FileOutputStream(file);
 			String msg = "This is simple byte stram write and read example";
 			
 			fout.write(msg.getBytes());
