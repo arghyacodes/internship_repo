@@ -23,6 +23,7 @@
 *.pdf
 *.pub
 *.txt
+*.xml
 *.classpath
 *.project
 *.perfs
