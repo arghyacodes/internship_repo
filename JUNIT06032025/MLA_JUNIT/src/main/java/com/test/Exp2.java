@@ -1,7 +1,17 @@
 package com.test;
 
 public class Exp2 {
-	public static void main(String[] args) {
-		
+	public int add(int x, int y) {
+		return x+y;
+	}
+	public int sub(int x, int y) {
+		return x-y;
+	}
+	public int mul(int x, int y) {
+		return x*y;
+	}
+	
+	public String greetUser(String msg) {
+		return msg;
 	}
 }
