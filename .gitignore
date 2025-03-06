@@ -26,6 +26,7 @@
 *.classpath
 *.project
 *.perfs
+*.properties
 .settings/
 .metadata/
 sts_tool/
