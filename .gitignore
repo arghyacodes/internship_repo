@@ -32,6 +32,7 @@
 .metadata/
 sts_tool/
 target/
+apache-tomcat-10.0.0/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
