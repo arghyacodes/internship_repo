@@ -28,6 +28,7 @@
 *.project
 *.perfs
 *.properties
+*.exe
 .settings/
 .metadata/
 sts_tool/
