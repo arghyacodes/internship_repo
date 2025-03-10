@@ -7,9 +7,9 @@
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
         .navbar { background-color: #333; padding: 10px; color: white; text-align: center; }
         .navbar a { color: white; padding: 14px 20px; text-decoration: none; }
-        .navbar a:hover { background-color: #ddd; color: black; }
+        .navbar a:hover { background-color: #CB4154; color: black; }
         .container { text-align: center; margin: 20px; }
-        .image-slider { width: 80%; margin: auto; border: 2px solid #ccc; padding: 10px; }
+        .image-slider { width: 80%; margin: auto; padding: 10px; }
         .products { display: flex; justify-content: space-around; margin-top: 20px; }
         .product { width: 30%; padding: 20px; border: 1px solid #ddd; }
         .form-container { text-align: left; margin-top: 30px; }
@@ -17,8 +17,14 @@
 </head>
 <body>
 
+	
+	<div class="head">
+	<center>
+		<img src="images/logo.jfif" width=316px height=177px>
+	</center>
+	</div>
     <!-- Navigation Bar -->
-    <div class="navbar">
+    <div class="navbar" >
         <a href="#">Logo</a>
         <a href="#">Home</a>
         <a href="#">Services</a>
@@ -29,15 +35,17 @@
     <!-- Image Slider -->
     <div class="container">
         <div class="image-slider">
-            <p>Image Slider (Placeholder)</p>
+            		<center>
+		<img src="images/roll.png" width=800px height=174px>
+	</center>
         </div>
     </div>
 
     <!-- Products Section -->
     <div class="products">
-        <div class="product">P1</div>
-        <div class="product">P2</div>
-        <div class="product">P3</div>
+        <div class="product"><img src="images/scorpion.jpeg" alt="Scorpio N" width=420px height=200px ></div>
+        <div class="product"><img src="images/thar.jpg" alt="Thar" width=420px height=200px ></div>
+        <div class="product"><img src="images/xuv700.jfif" alt="Scorpio N" width=420px height=200px ></div>
     </div>
 
     <!-- Form Section -->
@@ -51,9 +59,9 @@
             <input type="radio" name="gender" value="Female"> Female <br><br>
             Services:
             <select name="services">
-                <option>Web Development</option>
-                <option>App Development</option>
-                <option>SEO</option>
+                <option>SUV</option>
+                <option>MPV</option>
+                <option>Heavy Vehicle</option>
             </select> <br><br>
             <input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter <br><br>
             Password: <input type="password" name="password" required> <br><br>
