@@ -56,6 +56,7 @@
                 <option>SEO</option>
             </select> <br><br>
             <input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter <br><br>
+            Password: <input type="password" name="password" required> <br><br>
             <button type="submit">Submit</button>
         </form>
     </div>
