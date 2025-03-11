@@ -8,7 +8,14 @@
                 <bean id = "emp" class="com.test.Employee">
                 <property name="id" value="1001"></property>
                 <property name="name" value="Arghya"></property>
-                <property name="cmp" value="ju"></property>
+                <property name="cmp" value="Mphasis"></property>
                 <property name="city" value="Kolkata"></property>
+                </bean>
+                
+                <bean id="emp1" class="com.test.Employee">
+                <constructor-arg name="id" value="1002"></constructor-arg>
+                <constructor-arg name="name" value="Sourav"></constructor-arg>
+                <constructor-arg name="cmp" value="Kiswok"></constructor-arg>
+                <constructor-arg name="city" value="Howrah"></constructor-arg>
                 </bean>
 </beans>  
