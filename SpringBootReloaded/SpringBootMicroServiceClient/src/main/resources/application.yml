@@ -1,0 +1,15 @@
+spring:
+ application:
+   name:SpringBootServiceClient
+   
+   
+#DISCOVERY SERVER ACCESS
+
+eureka:
+ client:
+   service-url:
+    defaultZone:http://localhost:1111/eureka/
+    
+    
+server:
+ port:8761

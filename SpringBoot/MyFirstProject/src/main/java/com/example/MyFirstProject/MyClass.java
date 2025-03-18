@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyClass {
 	
 	
-	@GetMapping("greetuser")
+	@GetMapping("test")
 	public String welcome() {
-		return "Hello User";
+		return "Simple Actuator Response";
 	}
 	
 }
