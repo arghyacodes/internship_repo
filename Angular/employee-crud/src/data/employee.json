@@ -1,0 +1,26 @@
+[
+{
+    "id":1,
+    "name":"Virat",
+    "email":"vk18@bcci.in",
+    "gender":"Male"
+},
+{
+    "id":2,
+    "name":"Rohit",
+    "email":"rohit47@bcci.in",
+    "gender":"Male"
+},
+{
+    "id":3,
+    "name":"Dhoni",
+    "email":"msd7@bcci.in",
+    "gender":"Male"
+},
+{
+    "id":4,
+    "name":"Hardik",
+    "email":"hardik9@bcci.in",
+    "gender":"Male"
+}
+]
