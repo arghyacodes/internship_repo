@@ -23,9 +23,9 @@
                     <tbody>
                         <tr *ngFor="let i of users">
                             <td>{{ i.id }}</td>
-                            <td>{{ i.name }}</td>
-                            <td>{{ i.email }}</td>
-                            <td>{{ i.gender }}</td>
+                            <td>{{ i.name | uppercase }}</td>
+                            <td>{{ i.email | lowercase }}</td>
+                            <td>{{ i.gender | uppercase }}</td>
                             <td>
                                 <button class="btn btn-primary" (click)="editUser(i, content)" title="Edit">
                                     <!-- <img src="https://www.svgrepo.com/show/513500/pencil.svg" width="15" /> -->
