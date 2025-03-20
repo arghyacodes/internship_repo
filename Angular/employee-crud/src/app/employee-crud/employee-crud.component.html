@@ -4,7 +4,9 @@
             <div class="bread-crumb">
                 <h3 title="Employee List">Employees List</h3>
                 <button class="btn btn-primary add-btn" (click)="open(content)" title="Add New Employee">
-                    <img src="https://www.svgrepo.com/show/514205/plus-user.svg" width="25"/>Add New Employee
+                    <i class="fa-solid fa-user-plus"></i>
+                    <!-- <img src="https://www.svgrepo.com/show/514205/plus-user.svg" width="25"/> -->
+                    Add New Employee
                 </button>
             </div>
             <div class="table-div">
@@ -26,10 +28,12 @@
                             <td>{{ i.gender }}</td>
                             <td>
                                 <button class="btn btn-primary" (click)="editUser(i, content)" title="Edit">
-                                    <img src="https://www.svgrepo.com/show/513500/pencil.svg" width="15" />
+                                    <!-- <img src="https://www.svgrepo.com/show/513500/pencil.svg" width="15" /> -->
+                                    <i class="fa-regular fa-pen-to-square"></i>
                                 </button>
                                 <button class="btn btn-red" (click)="deleteUser(i.id)" title="Delete">
-                                    <img src="https://www.svgrepo.com/show/422403/bin-delete-interface.svg" width="15" />
+                                    <i class="fa-solid fa-user-minus"></i>
+                                    <!-- <img src="https://www.svgrepo.com/show/422403/bin-delete-interface.svg" width="15" /> -->
                                 </button>
                             </td>
                         </tr>

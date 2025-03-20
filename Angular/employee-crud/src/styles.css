@@ -31,3 +31,7 @@
     margin-left: 6px;
     }
     
+    .add-btn{
+        background-color: green;
+        --bs-btn-hover-bg:rgb(0, 73, 0);
+    }
