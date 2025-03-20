@@ -1,3 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
 .bread-crumb {
     padding-bottom: 30px;
     display: flex;
@@ -29,3 +30,4 @@
     --bs-btn-hover-bg: red;
     margin-left: 6px;
     }
+    
