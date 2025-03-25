@@ -1,0 +1,37 @@
+<div class="container">
+    <h2>{{ isEditMode ? 'Edit' : 'Add' }} Customer</h2>
+    <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label for="customer_name" class="form-label">Name</label>
+            <input type="text" formControlName="customer_name" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f['customer_name'].errors }" />
+            <div *ngIf="submitted && f['customer_name'].errors" class="invalid-feedback">
+                <div *ngIf="f['customer_name'].errors['required']">Name is required</div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="customer_city" class="form-label">City</label>
+            <input type="text" formControlName="customer_city" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f['customer_city'].errors }" />
+            <div *ngIf="submitted && f['customer_city'].errors" class="invalid-feedback">
+                <div *ngIf="f['customer_city'].errors['required']">City is required</div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="customer_email" class="form-label">Email</label>
+            <input type="email" formControlName="customer_email" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f['customer_email'].errors }" />
+            <div *ngIf="submitted && f['customer_email'].errors" class="invalid-feedback">
+                <div *ngIf="f['customer_email'].errors['required']">Email is required</div>
+                <div *ngIf="f['customer_email'].errors['email']">Email is invalid</div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary me-2">Save</button>
+            <a routerLink="/customers" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
